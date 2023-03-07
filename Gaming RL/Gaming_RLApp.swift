@@ -2,7 +2,7 @@
 //  Gaming_RLApp.swift
 //  Gaming RL
 //
-//  Created by Laura Ponce on 3/7/23.
+//  Created by Kylar Sorensen on 3/7/23.
 //
 
 import SwiftUI

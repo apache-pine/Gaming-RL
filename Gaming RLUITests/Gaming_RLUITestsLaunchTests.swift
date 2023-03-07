@@ -2,7 +2,7 @@
 //  Gaming_RLUITestsLaunchTests.swift
 //  Gaming RLUITests
 //
-//  Created by Laura Ponce on 3/7/23.
+//  Created by Kylar Sorensen on 3/7/23.
 //
 
 import XCTest

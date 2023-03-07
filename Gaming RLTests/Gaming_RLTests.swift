@@ -2,7 +2,7 @@
 //  Gaming_RLTests.swift
 //  Gaming RLTests
 //
-//  Created by Laura Ponce on 3/7/23.
+//  Created by Kylar Sorensen on 3/7/23.
 //
 
 import XCTest
