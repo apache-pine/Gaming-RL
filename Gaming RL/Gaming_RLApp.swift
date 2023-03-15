@@ -11,7 +11,7 @@ import SwiftUI
 struct Gaming_RLApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ToDoListView()
         }
     }
 }

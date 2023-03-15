@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4CD5C72029B7AA3900EAC701 /* Gaming_RLApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD5C71F29B7AA3900EAC701 /* Gaming_RLApp.swift */; };
-		4CD5C72229B7AA3900EAC701 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD5C72129B7AA3900EAC701 /* ContentView.swift */; };
+		4CD5C72229B7AA3900EAC701 /* ToDoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD5C72129B7AA3900EAC701 /* ToDoListView.swift */; };
 		4CD5C72429B7AA3A00EAC701 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CD5C72329B7AA3A00EAC701 /* Assets.xcassets */; };
 		4CD5C72829B7AA3A00EAC701 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CD5C72729B7AA3A00EAC701 /* Preview Assets.xcassets */; };
 		4CD5C73229B7AA3A00EAC701 /* Gaming_RLTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD5C73129B7AA3A00EAC701 /* Gaming_RLTests.swift */; };
@@ -36,7 +36,7 @@
 /* Begin PBXFileReference section */
 		4CD5C71C29B7AA3900EAC701 /* Gaming RL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gaming RL.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CD5C71F29B7AA3900EAC701 /* Gaming_RLApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gaming_RLApp.swift; sourceTree = "<group>"; };
-		4CD5C72129B7AA3900EAC701 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4CD5C72129B7AA3900EAC701 /* ToDoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListView.swift; sourceTree = "<group>"; };
 		4CD5C72329B7AA3A00EAC701 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4CD5C72529B7AA3A00EAC701 /* Gaming_RL.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Gaming_RL.entitlements; sourceTree = "<group>"; };
 		4CD5C72729B7AA3A00EAC701 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -96,7 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				4CD5C71F29B7AA3900EAC701 /* Gaming_RLApp.swift */,
-				4CD5C72129B7AA3900EAC701 /* ContentView.swift */,
+				4CD5C72129B7AA3900EAC701 /* ToDoListView.swift */,
 				4CD5C72329B7AA3A00EAC701 /* Assets.xcassets */,
 				4CD5C72529B7AA3A00EAC701 /* Gaming_RL.entitlements */,
 				4CD5C72629B7AA3A00EAC701 /* Preview Content */,
@@ -259,7 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4CD5C72229B7AA3900EAC701 /* ContentView.swift in Sources */,
+				4CD5C72229B7AA3900EAC701 /* ToDoListView.swift in Sources */,
 				4CD5C72029B7AA3900EAC701 /* Gaming_RLApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
