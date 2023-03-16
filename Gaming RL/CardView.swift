@@ -1,10 +1,10 @@
 import SwiftUI
 
-struct CardView: view {
+struct CardView: View {
     let todo: ToDoItem
     var body: some View {
         VStack(alignment: .leading) {
-            Text{todo.title}
+            Text(todo.title)
                 .font(.headline)
             Spacer()
             HStack {

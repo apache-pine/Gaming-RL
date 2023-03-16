@@ -7,10 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C9E57D629C3C63900435DCA /* ToDoItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C9E57D129C3C63900435DCA /* ToDoItems.swift */; };
+		4C9E57DA29C3C63900435DCA /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C9E57D529C3C63900435DCA /* CardView.swift */; };
+		4C9E57DE29C3C9B500435DCA /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C9E57DD29C3C9B500435DCA /* Theme.swift */; };
 		4CD5C72029B7AA3900EAC701 /* Gaming_RLApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD5C71F29B7AA3900EAC701 /* Gaming_RLApp.swift */; };
 		4CD5C72229B7AA3900EAC701 /* ToDoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD5C72129B7AA3900EAC701 /* ToDoListView.swift */; };
 		4CD5C72429B7AA3A00EAC701 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CD5C72329B7AA3A00EAC701 /* Assets.xcassets */; };
-		4CD5C72829B7AA3A00EAC701 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CD5C72729B7AA3A00EAC701 /* Preview Assets.xcassets */; };
 		4CD5C73229B7AA3A00EAC701 /* Gaming_RLTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD5C73129B7AA3A00EAC701 /* Gaming_RLTests.swift */; };
 		4CD5C73C29B7AA3A00EAC701 /* Gaming_RLUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD5C73B29B7AA3A00EAC701 /* Gaming_RLUITests.swift */; };
 		4CD5C73E29B7AA3A00EAC701 /* Gaming_RLUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD5C73D29B7AA3A00EAC701 /* Gaming_RLUITestsLaunchTests.swift */; };
@@ -34,12 +36,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4C9E57D129C3C63900435DCA /* ToDoItems.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToDoItems.swift; sourceTree = "<group>"; };
+		4C9E57D529C3C63900435DCA /* CardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		4C9E57DD29C3C9B500435DCA /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		4CD5C71C29B7AA3900EAC701 /* Gaming RL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gaming RL.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CD5C71F29B7AA3900EAC701 /* Gaming_RLApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gaming_RLApp.swift; sourceTree = "<group>"; };
 		4CD5C72129B7AA3900EAC701 /* ToDoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListView.swift; sourceTree = "<group>"; };
 		4CD5C72329B7AA3A00EAC701 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4CD5C72529B7AA3A00EAC701 /* Gaming_RL.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Gaming_RL.entitlements; sourceTree = "<group>"; };
-		4CD5C72729B7AA3A00EAC701 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4CD5C72D29B7AA3A00EAC701 /* Gaming RLTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Gaming RLTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CD5C73129B7AA3A00EAC701 /* Gaming_RLTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gaming_RLTests.swift; sourceTree = "<group>"; };
 		4CD5C73729B7AA3A00EAC701 /* Gaming RLUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Gaming RLUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -95,11 +99,13 @@
 		4CD5C71E29B7AA3900EAC701 /* Gaming RL */ = {
 			isa = PBXGroup;
 			children = (
+				4CD5C72629B7AA3A00EAC701 /* Preview Content */,
+				4C9E57D529C3C63900435DCA /* CardView.swift */,
+				4C9E57DD29C3C9B500435DCA /* Theme.swift */,
 				4CD5C71F29B7AA3900EAC701 /* Gaming_RLApp.swift */,
 				4CD5C72129B7AA3900EAC701 /* ToDoListView.swift */,
-				4CD5C72329B7AA3A00EAC701 /* Assets.xcassets */,
+				4C9E57D129C3C63900435DCA /* ToDoItems.swift */,
 				4CD5C72529B7AA3A00EAC701 /* Gaming_RL.entitlements */,
-				4CD5C72629B7AA3A00EAC701 /* Preview Content */,
 			);
 			path = "Gaming RL";
 			sourceTree = "<group>";
@@ -107,7 +113,7 @@
 		4CD5C72629B7AA3A00EAC701 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				4CD5C72729B7AA3A00EAC701 /* Preview Assets.xcassets */,
+				4CD5C72329B7AA3A00EAC701 /* Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -233,7 +239,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4CD5C72829B7AA3A00EAC701 /* Preview Assets.xcassets in Resources */,
 				4CD5C72429B7AA3A00EAC701 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,6 +266,9 @@
 			files = (
 				4CD5C72229B7AA3900EAC701 /* ToDoListView.swift in Sources */,
 				4CD5C72029B7AA3900EAC701 /* Gaming_RLApp.swift in Sources */,
+				4C9E57DE29C3C9B500435DCA /* Theme.swift in Sources */,
+				4C9E57DA29C3C63900435DCA /* CardView.swift in Sources */,
+				4C9E57D629C3C63900435DCA /* ToDoItems.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
