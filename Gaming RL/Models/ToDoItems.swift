@@ -1,13 +1,14 @@
 import Foundation
 
 
-struct ToDoItem {
+struct ToDoItem: Identifiable {
     let id: UUID
     var title: String
     var urgency: Int
     var points: Int
     var isComplete: Bool
     var theme: Theme
+    var history: [History] = []
     
     init(id: UUID = UUID(), title: String, urgency: Int, points: Int, isComplete: Bool, theme: Theme) {
         self.id = id
@@ -29,6 +30,13 @@ extension ToDoItem {
     
     var data: Data {
         Data(title: title, urgency: Double(urgency), points: Int(points), theme: theme)
+    }
+    
+    mutating func update(from data: Data) {
+        title = data.title
+        urgency = Int(data.urgency)
+        points = Int(data.points)
+        theme = data.theme
     }
 }
 

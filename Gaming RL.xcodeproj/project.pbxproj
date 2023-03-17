@@ -13,10 +13,11 @@
 		4C9E57E329C3E53A00435DCA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C9E57E229C3E53A00435DCA /* Assets.xcassets */; };
 		4C9E57E529C3EB4C00435DCA /* ToDoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C9E57E429C3EB4C00435DCA /* ToDoView.swift */; };
 		4C9E57E729C4CEBE00435DCA /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C9E57E629C4CEBE00435DCA /* DetailView.swift */; };
-		4C9E57E929C4D38E00435DCA /* ToDoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C9E57E829C4D38E00435DCA /* ToDoListView.swift */; };
 		4C9E57EB29C4D80D00435DCA /* DetailEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C9E57EA29C4D80D00435DCA /* DetailEditView.swift */; };
 		4C9E57ED29C4DB8C00435DCA /* ThemeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C9E57EC29C4DB8C00435DCA /* ThemeView.swift */; };
 		4C9E57EF29C4DCC600435DCA /* ThemePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C9E57EE29C4DCC600435DCA /* ThemePicker.swift */; };
+		4C9E57F129C4E40600435DCA /* TrailingIconLabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C9E57F029C4E40600435DCA /* TrailingIconLabelStyle.swift */; };
+		4C9E57F329C517BF00435DCA /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C9E57F229C517BF00435DCA /* History.swift */; };
 		4CD5C72029B7AA3900EAC701 /* Gaming_RLApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD5C71F29B7AA3900EAC701 /* Gaming_RLApp.swift */; };
 		4CD5C72429B7AA3A00EAC701 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CD5C72329B7AA3A00EAC701 /* Assets.xcassets */; };
 		4CD5C73229B7AA3A00EAC701 /* Gaming_RLTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD5C73129B7AA3A00EAC701 /* Gaming_RLTests.swift */; };
@@ -48,10 +49,11 @@
 		4C9E57E229C3E53A00435DCA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "Gaming RL/Assets.xcassets"; sourceTree = "<group>"; };
 		4C9E57E429C3EB4C00435DCA /* ToDoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoView.swift; sourceTree = "<group>"; };
 		4C9E57E629C4CEBE00435DCA /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
-		4C9E57E829C4D38E00435DCA /* ToDoListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToDoListView.swift; sourceTree = "<group>"; };
 		4C9E57EA29C4D80D00435DCA /* DetailEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailEditView.swift; sourceTree = "<group>"; };
 		4C9E57EC29C4DB8C00435DCA /* ThemeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeView.swift; sourceTree = "<group>"; };
 		4C9E57EE29C4DCC600435DCA /* ThemePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemePicker.swift; sourceTree = "<group>"; };
+		4C9E57F029C4E40600435DCA /* TrailingIconLabelStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailingIconLabelStyle.swift; sourceTree = "<group>"; };
+		4C9E57F229C517BF00435DCA /* History.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
 		4CD5C71C29B7AA3900EAC701 /* Gaming RL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gaming RL.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CD5C71F29B7AA3900EAC701 /* Gaming_RLApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gaming_RLApp.swift; sourceTree = "<group>"; };
 		4CD5C72329B7AA3A00EAC701 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -122,15 +124,16 @@
 			isa = PBXGroup;
 			children = (
 				4CD5C72629B7AA3A00EAC701 /* Preview Content */,
-				4C9E57E429C3EB4C00435DCA /* ToDoView.swift */,
-				4C9E57EC29C4DB8C00435DCA /* ThemeView.swift */,
-				4C9E57E829C4D38E00435DCA /* ToDoListView.swift */,
-				4C9E57E629C4CEBE00435DCA /* DetailView.swift */,
-				4C9E57EA29C4D80D00435DCA /* DetailEditView.swift */,
-				4C9E57EE29C4DCC600435DCA /* ThemePicker.swift */,
-				4C9E57E029C3DB0B00435DCA /* CardView.swift */,
 				4C9E57DF29C3D71600435DCA /* Models */,
 				4CD5C71F29B7AA3900EAC701 /* Gaming_RLApp.swift */,
+				4C9E57E429C3EB4C00435DCA /* ToDoView.swift */,
+				4C9E57F229C517BF00435DCA /* History.swift */,
+				4C9E57EA29C4D80D00435DCA /* DetailEditView.swift */,
+				4C9E57E629C4CEBE00435DCA /* DetailView.swift */,
+				4C9E57EE29C4DCC600435DCA /* ThemePicker.swift */,
+				4C9E57E029C3DB0B00435DCA /* CardView.swift */,
+				4C9E57EC29C4DB8C00435DCA /* ThemeView.swift */,
+				4C9E57F029C4E40600435DCA /* TrailingIconLabelStyle.swift */,
 				4CD5C72529B7AA3A00EAC701 /* Gaming_RL.entitlements */,
 			);
 			path = "Gaming RL";
@@ -294,13 +297,14 @@
 				4CD5C72029B7AA3900EAC701 /* Gaming_RLApp.swift in Sources */,
 				4C9E57DE29C3C9B500435DCA /* Theme.swift in Sources */,
 				4C9E57E729C4CEBE00435DCA /* DetailView.swift in Sources */,
+				4C9E57F329C517BF00435DCA /* History.swift in Sources */,
 				4C9E57EF29C4DCC600435DCA /* ThemePicker.swift in Sources */,
 				4C9E57EB29C4D80D00435DCA /* DetailEditView.swift in Sources */,
 				4C9E57D629C3C63900435DCA /* ToDoItems.swift in Sources */,
 				4C9E57E529C3EB4C00435DCA /* ToDoView.swift in Sources */,
 				4C9E57E129C3DB0B00435DCA /* CardView.swift in Sources */,
 				4C9E57ED29C4DB8C00435DCA /* ThemeView.swift in Sources */,
-				4C9E57E929C4D38E00435DCA /* ToDoListView.swift in Sources */,
+				4C9E57F129C4E40600435DCA /* TrailingIconLabelStyle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -454,7 +458,6 @@
 				CODE_SIGN_ENTITLEMENTS = "Gaming RL/Gaming_RL.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Gaming RL/Preview Content\"";
 				DEVELOPMENT_TEAM = XN3H8L2GRB;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
@@ -492,7 +495,6 @@
 				CODE_SIGN_ENTITLEMENTS = "Gaming RL/Gaming_RL.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Gaming RL/Preview Content\"";
 				DEVELOPMENT_TEAM = XN3H8L2GRB;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;

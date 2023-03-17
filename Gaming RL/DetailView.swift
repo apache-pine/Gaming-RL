@@ -1,8 +1,8 @@
 import SwiftUI
 
 struct DetailView: View {
-    let todo: ToDoItem
-    
+    @Binding var todo: ToDoItem
+    @State private var data = ToDoItem.Data()
     @State private var isPresentingEditView = false
     
     var body: some View {
@@ -28,16 +28,27 @@ struct DetailView: View {
                         .cornerRadius(6)
                 }
             }
+            HStack {
+                Spacer()
+                Button("Task Completed") {
+                    todo.isComplete = true
+                }
+                .padding()
+                .foregroundColor(todo.theme.accentColor)
+                Spacer()
+            }
+            .background(todo.theme.mainColor)
         }
         .navigationTitle(todo.title)
         .toolbar {
             Button("Edit") {
                 isPresentingEditView = true
+                data = todo.data
             }
         }
         .sheet(isPresented: $isPresentingEditView) {
             NavigationView {
-                DetailEditView()
+                DetailEditView(data: $data)
                     .navigationTitle(todo.title)
                     .toolbar {
                         ToolbarItem(placement: .cancellationAction) {
@@ -48,6 +59,7 @@ struct DetailView: View {
                         ToolbarItem(placement: .confirmationAction) {
                             Button("Done") {
                                 isPresentingEditView = false
+                                todo.update(from: data)
                             }
                         }
                     }
@@ -59,7 +71,7 @@ struct DetailView: View {
 struct DetailView_Previews: PreviewProvider {
     static var previews: some View {
         NavigationView {
-            DetailView(todo: ToDoItem.sampleData[0])
+            DetailView(todo: .constant(ToDoItem.sampleData[0]))
         }
     }
 }
