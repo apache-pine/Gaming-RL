@@ -1,10 +1,3 @@
-//
-//  Gaming_RLTests.swift
-//  Gaming RLTests
-//
-//  Created by Kylar Sorensen on 3/7/23.
-//
-
 import XCTest
 
 final class Gaming_RLTests: XCTestCase {

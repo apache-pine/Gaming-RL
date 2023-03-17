@@ -1,10 +1,3 @@
-//
-//  Gaming_RLUITestsLaunchTests.swift
-//  Gaming RLUITests
-//
-//  Created by Kylar Sorensen on 3/7/23.
-//
-
 import XCTest
 
 final class Gaming_RLUITestsLaunchTests: XCTestCase {

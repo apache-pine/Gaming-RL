@@ -8,10 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		4C9E57D629C3C63900435DCA /* ToDoItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C9E57D129C3C63900435DCA /* ToDoItems.swift */; };
-		4C9E57DA29C3C63900435DCA /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C9E57D529C3C63900435DCA /* CardView.swift */; };
 		4C9E57DE29C3C9B500435DCA /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C9E57DD29C3C9B500435DCA /* Theme.swift */; };
+		4C9E57E129C3DB0B00435DCA /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C9E57E029C3DB0B00435DCA /* CardView.swift */; };
+		4C9E57E329C3E53A00435DCA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C9E57E229C3E53A00435DCA /* Assets.xcassets */; };
+		4C9E57E529C3EB4C00435DCA /* ToDoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C9E57E429C3EB4C00435DCA /* ToDoView.swift */; };
+		4C9E57E729C4CEBE00435DCA /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C9E57E629C4CEBE00435DCA /* DetailView.swift */; };
+		4C9E57E929C4D38E00435DCA /* ToDoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C9E57E829C4D38E00435DCA /* ToDoListView.swift */; };
+		4C9E57EB29C4D80D00435DCA /* DetailEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C9E57EA29C4D80D00435DCA /* DetailEditView.swift */; };
+		4C9E57ED29C4DB8C00435DCA /* ThemeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C9E57EC29C4DB8C00435DCA /* ThemeView.swift */; };
+		4C9E57EF29C4DCC600435DCA /* ThemePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C9E57EE29C4DCC600435DCA /* ThemePicker.swift */; };
 		4CD5C72029B7AA3900EAC701 /* Gaming_RLApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD5C71F29B7AA3900EAC701 /* Gaming_RLApp.swift */; };
-		4CD5C72229B7AA3900EAC701 /* ToDoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD5C72129B7AA3900EAC701 /* ToDoListView.swift */; };
 		4CD5C72429B7AA3A00EAC701 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CD5C72329B7AA3A00EAC701 /* Assets.xcassets */; };
 		4CD5C73229B7AA3A00EAC701 /* Gaming_RLTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD5C73129B7AA3A00EAC701 /* Gaming_RLTests.swift */; };
 		4CD5C73C29B7AA3A00EAC701 /* Gaming_RLUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD5C73B29B7AA3A00EAC701 /* Gaming_RLUITests.swift */; };
@@ -37,11 +43,17 @@
 
 /* Begin PBXFileReference section */
 		4C9E57D129C3C63900435DCA /* ToDoItems.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToDoItems.swift; sourceTree = "<group>"; };
-		4C9E57D529C3C63900435DCA /* CardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		4C9E57DD29C3C9B500435DCA /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		4C9E57E029C3DB0B00435DCA /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		4C9E57E229C3E53A00435DCA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "Gaming RL/Assets.xcassets"; sourceTree = "<group>"; };
+		4C9E57E429C3EB4C00435DCA /* ToDoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoView.swift; sourceTree = "<group>"; };
+		4C9E57E629C4CEBE00435DCA /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		4C9E57E829C4D38E00435DCA /* ToDoListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToDoListView.swift; sourceTree = "<group>"; };
+		4C9E57EA29C4D80D00435DCA /* DetailEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailEditView.swift; sourceTree = "<group>"; };
+		4C9E57EC29C4DB8C00435DCA /* ThemeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeView.swift; sourceTree = "<group>"; };
+		4C9E57EE29C4DCC600435DCA /* ThemePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemePicker.swift; sourceTree = "<group>"; };
 		4CD5C71C29B7AA3900EAC701 /* Gaming RL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gaming RL.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CD5C71F29B7AA3900EAC701 /* Gaming_RLApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gaming_RLApp.swift; sourceTree = "<group>"; };
-		4CD5C72129B7AA3900EAC701 /* ToDoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListView.swift; sourceTree = "<group>"; };
 		4CD5C72329B7AA3A00EAC701 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4CD5C72529B7AA3A00EAC701 /* Gaming_RL.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Gaming_RL.entitlements; sourceTree = "<group>"; };
 		4CD5C72D29B7AA3A00EAC701 /* Gaming RLTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Gaming RLTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -76,9 +88,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4C9E57DF29C3D71600435DCA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4C9E57D129C3C63900435DCA /* ToDoItems.swift */,
+				4C9E57DD29C3C9B500435DCA /* Theme.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		4CD5C71329B7AA3900EAC701 = {
 			isa = PBXGroup;
 			children = (
+				4C9E57E229C3E53A00435DCA /* Assets.xcassets */,
 				4CD5C71E29B7AA3900EAC701 /* Gaming RL */,
 				4CD5C73029B7AA3A00EAC701 /* Gaming RLTests */,
 				4CD5C73A29B7AA3A00EAC701 /* Gaming RLUITests */,
@@ -100,11 +122,15 @@
 			isa = PBXGroup;
 			children = (
 				4CD5C72629B7AA3A00EAC701 /* Preview Content */,
-				4C9E57D529C3C63900435DCA /* CardView.swift */,
-				4C9E57DD29C3C9B500435DCA /* Theme.swift */,
+				4C9E57E429C3EB4C00435DCA /* ToDoView.swift */,
+				4C9E57EC29C4DB8C00435DCA /* ThemeView.swift */,
+				4C9E57E829C4D38E00435DCA /* ToDoListView.swift */,
+				4C9E57E629C4CEBE00435DCA /* DetailView.swift */,
+				4C9E57EA29C4D80D00435DCA /* DetailEditView.swift */,
+				4C9E57EE29C4DCC600435DCA /* ThemePicker.swift */,
+				4C9E57E029C3DB0B00435DCA /* CardView.swift */,
+				4C9E57DF29C3D71600435DCA /* Models */,
 				4CD5C71F29B7AA3900EAC701 /* Gaming_RLApp.swift */,
-				4CD5C72129B7AA3900EAC701 /* ToDoListView.swift */,
-				4C9E57D129C3C63900435DCA /* ToDoItems.swift */,
 				4CD5C72529B7AA3A00EAC701 /* Gaming_RL.entitlements */,
 			);
 			path = "Gaming RL";
@@ -239,6 +265,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C9E57E329C3E53A00435DCA /* Assets.xcassets in Resources */,
 				4CD5C72429B7AA3A00EAC701 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -264,11 +291,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4CD5C72229B7AA3900EAC701 /* ToDoListView.swift in Sources */,
 				4CD5C72029B7AA3900EAC701 /* Gaming_RLApp.swift in Sources */,
 				4C9E57DE29C3C9B500435DCA /* Theme.swift in Sources */,
-				4C9E57DA29C3C63900435DCA /* CardView.swift in Sources */,
+				4C9E57E729C4CEBE00435DCA /* DetailView.swift in Sources */,
+				4C9E57EF29C4DCC600435DCA /* ThemePicker.swift in Sources */,
+				4C9E57EB29C4D80D00435DCA /* DetailEditView.swift in Sources */,
 				4C9E57D629C3C63900435DCA /* ToDoItems.swift in Sources */,
+				4C9E57E529C3EB4C00435DCA /* ToDoView.swift in Sources */,
+				4C9E57E129C3DB0B00435DCA /* CardView.swift in Sources */,
+				4C9E57ED29C4DB8C00435DCA /* ThemeView.swift in Sources */,
+				4C9E57E929C4D38E00435DCA /* ToDoListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
