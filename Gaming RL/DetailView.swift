@@ -2,8 +2,10 @@ import SwiftUI
 
 struct DetailView: View {
     @Binding var todo: ToDoItem
+    @Binding var totalScore: Int
     @State private var data = ToDoItem.Data()
     @State private var isPresentingEditView = false
+    let deleteItem: (ToDoItem) -> Void
     
     var body: some View {
         List {
@@ -32,6 +34,8 @@ struct DetailView: View {
                 Spacer()
                 Button("Task Completed") {
                     todo.isComplete = true
+                    totalScore += todo.points
+                    deleteItem(todo)
                 }
                 .padding()
                 .foregroundColor(todo.theme.accentColor)
@@ -71,7 +75,7 @@ struct DetailView: View {
 struct DetailView_Previews: PreviewProvider {
     static var previews: some View {
         NavigationView {
-            DetailView(todo: .constant(ToDoItem.sampleData[0]))
+            DetailView(todo: .constant(ToDoItem.sampleData[0]), totalScore: .constant(100), deleteItem: {_ in })
         }
     }
 }

@@ -4,16 +4,19 @@ struct ToDoView: View {
     @Binding var todo: [ToDoItem]
     @State private var isPresentingNewTodoView = false
     @State private var newTodoData = ToDoItem.Data()
+    @AppStorage ("totalScore") private var totalScore = 0
     
     var body: some View {
         VStack {
-            Label("Score: ", systemImage: "star.circle")
+            Label("Score: \(totalScore)", systemImage: "star.circle")
             List {
-                ForEach($todo) { $todo in
-                    NavigationLink(destination: DetailView(todo: $todo)) {
-                        CardView(todo: todo)
+                ForEach($todo) { $todoEach in
+                    NavigationLink(destination: DetailView(todo: $todoEach, totalScore: $totalScore, deleteItem: {item in
+                        todo.removeAll(where: { $0 == item })
+                    })) {
+                        CardView(todo: todoEach)
                     }
-                    .listRowBackground(todo.theme.mainColor)
+                    .listRowBackground(todoEach.theme.mainColor)
                 }
             }
             .navigationTitle("To-do List:")

@@ -2,7 +2,7 @@ import SwiftUI
 
 @main
 struct Gaming_RLApp: App {
-    @State private var todo = ToDoItem.sampleData
+    @State private var todo = [ToDoItem]()
     
     var body: some Scene {
         WindowGroup {
