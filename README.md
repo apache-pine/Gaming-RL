@@ -1,21 +1,16 @@
 # Overview
 
-<!-- To-do:
-Talk about what you are trying to accomplish as a data scientist to further your learning.
-Provide a description of your app.  Describe how to use the app.
-Describe your purpose for creating this app.
-Provide a link to your YouTube demonstration.  It should be a 4-5 minute demo of the app running and a walkthrough of the code. -->
+This is a simple iOS productivity app that is essentially a to-do list with a spin. The user can add items to a list and then check them off as they are completed. Each item on the list is given a level of urgency by the user. Based on the level of urgency, the item has a point value attached to it. As users complete more urgent tasks first, they will earn more points. The score is displayed at the top of the screen. Each item on the list can be edited and more items can be add. The items also have themes that can be changed so that users can color code their tasks.
 
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://youtu.be/c1HBwX8KWJc)
 
 # Development Environment
-
-<!-- Describe the tools that you used to develop the app
-Describe the programming language that you used and any libraries. -->
 
 - Swift
 - Xcode
 - UIKit
+- SwiftUI
+- VSCode
 
 # Useful Websites
 
@@ -26,8 +21,8 @@ Describe the programming language that you used and any libraries. -->
 
 # Future Work
 
-<!-- Make a list of things that you need to fix, improve, and add in the future. -->
-
-- Item 1
-- Item 2
-- Item 3
+- Make list persist after app is closed
+- Add a way to delete items from the list
+- Fix bug where theme doesn't properly change
+- Add history view
+- Add score for each individual day, week, month, year, etc.
